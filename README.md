@@ -1,4 +1,9 @@
-# Tradelater.ch
+<p align="center">
+  <img src="frontend/assets/logo.png" alt="Tradelater.ch" width="220" />
+</p>
+
+<h1 align="center">Tradelater.ch</h1>
+<p align="center"><em>From Switzerland to the World 🇨🇭</em></p>
 
 Lokaler B2C- & B2B-Marktplatz mit sicherem Treuhand-Zahlungssystem (Escrow via Stripe Connect)
 und integrierter Verhandlungsfunktion.

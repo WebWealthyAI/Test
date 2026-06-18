@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, Alert } from 'react-native';
+import { View, Text, Image, Alert } from 'react-native';
 import { Screen, Heading, Subtle, Field, Button, Card } from '../../components/ui';
 import { useAuth } from '../../context/AuthContext';
 
@@ -25,9 +25,13 @@ export default function LoginScreen({ navigation }) {
 
   return (
     <Screen>
-      <View className="mt-12 mb-8">
-        <Text className="text-4xl font-extrabold text-brand">Tradelater</Text>
-        <Subtle>Lokaler Marktplatz mit Treuhand-Schutz</Subtle>
+      <View className="mt-10 mb-6 items-center">
+        <Image
+          source={require('../../../assets/logo.png')}
+          style={{ width: 200, height: 200 }}
+          resizeMode="contain"
+        />
+        <Subtle className="mt-1">From Switzerland to the World 🇨🇭</Subtle>
       </View>
 
       <Card>
