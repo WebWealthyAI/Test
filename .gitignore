@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+*.pem
+
+# Expo
+.expo/
+dist/
+web-build/
+*.orig.*
+
+# Native
+*.apk
+*.ipa
+
+# Logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+logs/
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.tsbuildinfo
+
+# Build
+build/
+coverage/

@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Tradelater",
+    "slug": "tradelater",
+    "scheme": "tradelater",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#0F766E"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ch.tradelater.app"
+    },
+    "android": {
+      "package": "ch.tradelater.app"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": ["expo-image-picker"]
+  }
+}
