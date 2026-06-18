@@ -1,0 +1,13 @@
+{
+  "name": "tradelater",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Tradelater.ch – Monorepo (backend + frontend). Komfort-Skripte zum lokalen Start.",
+  "scripts": {
+    "setup": "npm --prefix backend install && npm --prefix frontend install",
+    "backend": "npm --prefix backend run dev",
+    "frontend": "npm --prefix frontend start",
+    "frontend:web": "npm --prefix frontend run web",
+    "seed": "npm --prefix backend run seed"
+  }
+}
