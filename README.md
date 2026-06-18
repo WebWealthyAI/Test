@@ -42,6 +42,11 @@ Logistik → Käufer bestätigt Erhalt → Geld an Verkäufer freigegeben
 
 ## Schnellstart
 
+> 💻 **Lokal auf deinem Laptop einrichten?** Komplette Schritt-für-Schritt-Anleitung
+> (Windows & Mac, klonen → installieren → starten) in **[LOCAL_SETUP.md](./LOCAL_SETUP.md)**.
+>
+> Kurzform nach dem Klonen: `npm run setup` → `npm run backend` (Terminal 1) → `npm run frontend` (Terminal 2).
+
 ### Backend
 ```bash
 cd backend
